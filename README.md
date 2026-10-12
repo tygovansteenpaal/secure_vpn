@@ -1,5 +1,10 @@
 # PyVPN — Advanced Python VPN
 
+![Python](https://img.shields.io/badge/Python-3.10%2B-3776AB?logo=python&logoColor=white)
+![Platform](https://img.shields.io/badge/platform-Linux-FCC624?logo=linux&logoColor=black)
+![Encryption](https://img.shields.io/badge/encryption-AES--256--GCM-success)
+![License](https://img.shields.io/badge/license-MIT-green)
+
 A fully functional VPN built in Python using TUN interfaces and modern cryptography.
 
 ## Features
@@ -164,3 +169,13 @@ sudo iptables -t nat -L POSTROUTING -n -v
 # Check server has internet access
 # Verify NAT rule is applied for VPN subnet (10.8.0.0/24)
 ```
+
+---
+
+## License
+
+This project is [MIT](LICENSE) licensed.
+
+## Author
+
+**Tygo van Steenpaal** — [GitHub](https://github.com/tygovansteenpaal) · [LinkedIn](https://www.linkedin.com/in/tygo-van-steen-37715a3a9)
